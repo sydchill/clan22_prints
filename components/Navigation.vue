@@ -1,0 +1,49 @@
+<template>
+  <div id="navigation">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <h1 class="title secondary-font primary-color">CLAN 22</h1>
+          </a>
+          <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-start ml-6">
+            <NuxtLink to="how-it-works" class="navbar-item primary-color">
+              How It Works
+            </NuxtLink>
+            <a
+              href="https://clan22.com/"
+              target="_blank"
+              class="navbar-item primary-color"
+            >
+              Shop
+            </a>
+            <a class="navbar-item primary-color"> Contact </a>
+          </div>
+          <div class="navbar-end">
+            <a
+              href="https://www.instagram.com/clan22_designs/"
+              target="_blank"
+              class="navbar-item primary-color"
+            >
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/Clan-22-designs-102318355616008/shop/"
+              target="_blank"
+              class="navbar-item primary-color"
+            >
+              <i class="fa fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</template>

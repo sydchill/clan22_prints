@@ -18,18 +18,20 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", integrity: "sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin: "anonymous" }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    'bulma'
+    'bulma',
+    '~assets/_main.scss',
   ],
 
   styleResources: {
     scss: [
-      '~assets/scss/_main.scss',
+
     ]
   },
 
