@@ -20,6 +20,8 @@
         </div>
       </div>
     </section>
+
+    <!-- What we offer section -->
     <section id="offer" class="m-6">
       <h1
         class="title has-text-centered primary-color is-capitalized"
@@ -46,7 +48,14 @@
               </figure>
             </div>
             <div class="card-content tertiary-backround">
-              <div class="content primary-color has-text-weight-semibold is-capitalized	">
+              <div
+                class="
+                  content
+                  primary-color
+                  has-text-weight-semibold
+                  is-capitalized
+                "
+              >
                 Bring your own T-shirt or we will buy one for you
               </div>
             </div>
@@ -69,7 +78,14 @@
               </figure>
             </div>
             <div class="card-content tertiary-backround">
-              <div class="content primary-color has-text-weight-semibold is-capitalized	">
+              <div
+                class="
+                  content
+                  primary-color
+                  has-text-weight-semibold
+                  is-capitalized
+                "
+              >
                 We make our own bags and aprons but if your bags that you want
                 heat pressed we got you covered
               </div>
@@ -93,7 +109,14 @@
               </figure>
             </div>
             <div class="card-content tertiary-backround">
-              <div class="content primary-color has-text-weight-semibold is-capitalized	">
+              <div
+                class="
+                  content
+                  primary-color
+                  has-text-weight-semibold
+                  is-capitalized
+                "
+              >
                 You have a sticker design we got you covered. We print and send
                 you your stickers. We only takes orders for 20 stickers and
                 above
@@ -103,6 +126,46 @@
         </div>
       </div>
     </section>
+
+    <section id="design" class="tertiary-backround">
+      <div class="columns is-align-items-center">
+        <div class="column">
+          <figure class="image design-img">
+            <img src="~/assets/img/sticker-2.jpg" />
+          </figure>
+        </div>
+        <div class="column ">
+          <h1
+            class="title is-capitalized has-text-weight-bold primary-color m-6"
+          >
+            Send us your design and we will handle the rest
+          </h1>
+
+          <h1
+            class="
+              subtitle
+              is-capitalized
+              has-text-weight-regular
+              primary-color
+              m-6
+            "
+          >
+            If you want examples of the products we can print for you check out
+            our
+            <a href="https://clan22.com/" target="_blank">
+              <span class="has-text-weight-bold secondary-color is-underlined"
+                >Shop</span
+              ></a
+            >
+          </h1>
+          <a class="defaultbtn ml-6 mt-4 is-capitalized" href="mailto:clan22@clan22.com">get a quote</a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <Footer />
   </div>
 </template>
 
@@ -113,7 +176,14 @@ export default {
 </script>
 
 <style scoped>
- .card-content {
-   min-height: 150px;
- }
+.card-content {
+  min-height: 150px;
+}
+.design-img {
+  margin: 30px 70px;
+}
+.image img {
+  height: 28rem;
+  object-fit: contain;
+}
 </style>

@@ -21,9 +21,14 @@ body {
 .primary-color {
     color: $primary-color !important;
 }
-
+.secondary-color {
+    color: $secondary-color !important;
+}
 .secondary-font {
     font-family: $secondary-font !important;
+}
+.primary-backround {
+    background-color: $primary-color
 }
 .tertiary-backround {
     background-color: $tertiary-color
