@@ -28,10 +28,10 @@ body {
     font-family: $secondary-font !important;
 }
 .primary-backround {
-    background-color: $primary-color
+    background-color: $primary-color;
 }
 .tertiary-backround {
-    background-color: $tertiary-color
+    background-color: $tertiary-color;
 }
 .defaultbtn {
     @extend .button;
@@ -45,4 +45,13 @@ body {
     letter-spacing: 0.2em;
     text-transform: uppercase;
     width: 13rem;
+}
+
+.home-enter-active,
+.home-leave-active {
+    transition: opacity 0.5s;
+}
+.home-enter,
+.home-leave-active {
+    opacity: 0;
 }

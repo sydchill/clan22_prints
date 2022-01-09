@@ -8,11 +8,11 @@
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
-          <p class="title primary-color is-size-1" style="font-weight: 900">
+          <p class="title primary-color is-size-1 is-size-3-mobile is-capitalized" style="font-weight: 900">
             All of your T-shirt <br />
             printing needs
           </p>
-          <p class="subtitle primary-color mt-3 is-size-5">
+          <p class="subtitle primary-color is-capitalized m-3 is-size-5 is-size-6-mobile">
             Send us your designs we will print for you
           </p>
 
@@ -134,22 +134,12 @@
             <img src="~/assets/img/sticker-2.jpg" />
           </figure>
         </div>
-        <div class="column ">
-          <h1
-            class="title is-capitalized has-text-weight-bold primary-color m-6"
-          >
+        <div class="column">
+          <h1 class="example-title primary-color">
             Send us your design and we will handle the rest
           </h1>
 
-          <h1
-            class="
-              subtitle
-              is-capitalized
-              has-text-weight-regular
-              primary-color
-              m-6
-            "
-          >
+          <h1 class="example-subtitle primary-color">
             If you want examples of the products we can print for you check out
             our
             <a href="https://clan22.com/" target="_blank">
@@ -158,8 +148,11 @@
               ></a
             >
           </h1>
-          <a class="defaultbtn ml-6 mt-4 is-capitalized" href="mailto:clan22@clan22.com">get a quote</a>
-
+          <a
+            class="defaultbtn ml-6 mt-4 mb-6 is-capitalized"
+            href="mailto:clan22@clan22.com"
+            >get a quote</a
+          >
         </div>
       </div>
     </section>
@@ -175,7 +168,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "~@/assets/main";
 .card-content {
   min-height: 150px;
 }
@@ -185,5 +179,22 @@ export default {
 .image img {
   height: 28rem;
   object-fit: contain;
+}
+.example-subtitle {
+  @extend .subtitle, .is-capitalized, .m-6;
+}
+
+.example-title {
+  @extend .title, .is-capitalized, .has-text-weight-bold, .m-6;
+}
+@media screen and (max-width: 768px) {
+  .example-title .example-subtitle {
+    margin: 2rem !important;
+  }
+  @media screen and (min-width: 350px) {
+    .example-title .example-subtitle {
+      margin: 0rem !important;
+    }
+  }
 }
 </style>

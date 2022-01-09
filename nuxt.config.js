@@ -23,6 +23,11 @@ export default {
     ]
   },
 
+
+  layoutTransition: {
+    name: 'layout',
+    mode: 'out-in'
+  },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'bulma',
