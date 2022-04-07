@@ -28,15 +28,9 @@
         >
           <div class="navbar-start ml-1">
             <NuxtLink to="how-it-works" class="navbar-item primary-color">
-              How It Works
+              Create
             </NuxtLink>
-            <a
-              href="https://clan22.com/"
-              target="_blank"
-              class="navbar-item primary-color"
-            >
-              Shop
-            </a>
+       
             <a class="navbar-item primary-color"> Contact </a>
           </div>
           <div class="navbar-end">
