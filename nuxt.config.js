@@ -4,7 +4,9 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
+  router: {
+    base: '/clan22_prints'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'clan22_prints',

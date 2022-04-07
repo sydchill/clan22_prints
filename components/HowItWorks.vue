@@ -17,7 +17,7 @@
     <section class="m-5">
       <div class="columns m-6">
         <div class="column m-6">
-          <figure class="image is-128x128">
+          <figure class="image image-size">
             <img src="@/assets/img/send.png" />
           </figure>
           <div class="block">
@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="column m-6">
-          <figure class="image is-128x128">
+          <figure class="image image-size">
             <img src="@/assets/img/heatpress.png" />
           </figure>
           <div class="block">
@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="column m-6">
-          <figure class="image is-128x128">
+          <figure class="image image-size">
             <img src="@/assets/img/deliver.png" />
           </figure>
           <h1
@@ -82,6 +82,11 @@
 <style scoped>
 figure {
   margin: auto !important;
+}
+
+.image-size {
+  width: 240px !important;
+  height: 240px !important;
 }
 
 
