@@ -28,7 +28,7 @@
         >
           <div class="navbar-start ml-1">
             <NuxtLink to="how-it-works" class="navbar-item primary-color">
-              Create
+              How It Work
             </NuxtLink>
        
             <a class="navbar-item primary-color"> Contact </a>
